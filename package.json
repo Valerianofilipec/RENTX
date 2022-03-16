@@ -11,12 +11,14 @@
     "trun": "ts-node-dev ./node_modules/typeorm/cli migration:run"
   },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
     "@types/express": "^4.17.11",
     "@types/multer": "^1.4.5",
     "@types/swagger-ui-express": "^4.1.2",
     "@types/uuid": "^8.3.0",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
+    "@types/jsonwebtoken": "^8.5.1",
     "eslint": "^7.22.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.1.0",
@@ -30,8 +32,6 @@
     "typescript": "^4.2.3"
   },
   "dependencies": {
-    "@types/bcrypt": "^3.0.0",
-    "@types/jsonwebtoken": "^8.5.1",
     "bcrypt": "^5.0.1",
     "csv-parse": "^4.15.3",
     "express": "^4.17.1",
